@@ -10,14 +10,14 @@ p {
 }
 
 .circle {
-  width: 500px;
-  height: 500px;
+  width: 1500px;
+  height: 1500px;
   background: lightyellow;
   border-radius: 50%
 }
 
 .iconAdded{
-	animation: takeoff 8s infinite;
+
 }
 
 @keyframes sky {
