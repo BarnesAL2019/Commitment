@@ -1,7 +1,8 @@
 body {
-	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
-  overflow: hidden;
-  animation: night 5s infinite;
+	background-color: #45D5FF;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23de9300' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa691a' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e1a108' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23935f1b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23e3b014' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%237d551b' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23e4be21' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23694a1c' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23e5cd2d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2355401d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23e5db3b' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%2343351d' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
 }
 
 .circle {
@@ -11,24 +12,6 @@ body {
   animation: moon 5s infinite;
   border-radius: 50%
 
-}
-
-@keyframes sail {
-  0% {
-    transform: translate(0, 0);    
-  }
-  100% {
-    transform: translate(1100px, 0px);
-  }
-}
-
-.ocean { 
-  height: 5%;
-  width:100%;
-  position:absolute;
-  bottom:0;
-  left:0;
-  background: #015871;
 }
 
 .sky{
@@ -46,31 +29,6 @@ body {
 	color: white;
 	animation: sky 40s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
   	transform: translate3d(0, 0, 0);
-}
-
-.wave {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
-  position: absolute;
-  top: -198px;
-  width: 6400px;
-  height: 198px;
-  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-  transform: translate3d(0, 0, 0);
-}
-
-.wave:nth-of-type(2) {
-  top: -175px;
-  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
-  opacity: 1;
-}
-
-@keyframes wave {
-  0% {
-    margin-left: 0;
-  }
-  100% {
-    margin-left: -1600px;
-  }
 }
 
 @keyframes sky {
