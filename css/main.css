@@ -22,61 +22,57 @@ p {
 	0%, 100%{
 	width: 100px;
   	height: 100px;
-  	background: red;
 
 	}
 	25%{
       width: 100px;
       height: 150px;
       transform: skew(20deg);
-      background: red;
 	}
 	50%{
 	width: 200px;
   	height: 100px;
-    background: pink;
 	}
 	75%{
       width: 100px;
       height: 150px;
       transform: skew(-20deg);
-      background: orange;
 	}
 
 }
 
 @keyframes switchShape {
 	0%, 100%{
-	
+	background:#e53e3e ;
 		}
 	10%{
-	
+	background: #ed8936;
 	}
 	20%{
-		
+		background: ;
 	}
 	30%{
-		
+		background: ;
 	}
 	40%{
-		
+		background: ;
 	}
 	50%
-	{
+	{background: ;
 		
 	}
-	60%{
+	60%{background: ;
 		
 	}
 	70%{
-		
+		background: ;
 	}
 	80%{
-		
+		background: ;
 	}
 	90%
-	{
-		
+	{ 
+		background: ;
 	}
 }
 .oval {
