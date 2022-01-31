@@ -19,10 +19,26 @@ p {
 @keyframes waterFlowers {
 	0%, 100%{
 		transform: rotate(0deg);
+		font-size:50px;
+		margin-right: -750px;
+	}
+	25%{
+		transform: rotate(360deg);
+		font-size:75px;
+		margin-right: 750px;
 	}
 	50%
 	{
+		transform: rotate(0deg);
+		font-size:100px;
+		margin-top: 400px;
+	}
+	75%
+	{
 		transform: rotate(360deg);
+		font-size:75px;
+		margin-right: -750px;
+		margin-top: 400px;
 	}
 }
 
