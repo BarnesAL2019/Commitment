@@ -11,18 +11,16 @@ p {
 }
 
 .iconAdded{
-
+	animation: takeoff 2s infinite;
 }
 
-@keyframes slideAway {
+@keyframes takeoff {
 	0%, 100%{
-		margin-left: 1000px;
-		font-size:20px;
-		color: transparent;
+		font-size: 150px;
 	}
 	50%{
-		margin-left: 0px;
-		font-size:500px;
+		font-size: 200px;
+		margin-top: 20px;
 		color: black;
 	}
 	/*50%
