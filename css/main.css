@@ -9,6 +9,15 @@ p {
 	color: white;
 }
 
+.circle {
+  width: 100px;
+  height: 100px;
+  background: lightyellow;
+  animation: sky 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+  border-radius: 50%
+}
+
 .iconAdded{
 	animation: takeoff 8s infinite;
 }
