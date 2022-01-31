@@ -4,15 +4,11 @@ body {
 
 }
 
-header {
-	font-family: 'Comforter', cursive;
-	font-size: 60px;
-	color: blue;
-}
-
-.sailboat{
-	animation: sail 5s infinite;
-    animation-direction: alternate;
+#circle {
+  width: 200px;
+  height: 200px;
+  background:Yellow;
+  border-radius: 50%
 }
 
 @keyframes sail {
