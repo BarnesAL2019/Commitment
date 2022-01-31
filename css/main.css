@@ -21,16 +21,14 @@ p {
 
 @keyframes move{
 	0%, 100%{
-      border-bottom: 50px solid yellow;
-      border-left: 25px solid transparent;
-      border-right: 25px solid transparent;
-      height: 50px;
-      width: 100px;
+	width: 100px;
+  	height: 100px;
+  	background: red;
 
 	}
 	25%{
-      width: 150px;
-      height: 100px;
+      width: 100px;
+      height: 150px;
       transform: skew(20deg);
       background: red;
 	}
