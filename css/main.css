@@ -64,9 +64,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     border-left: 100px solid transparent;
   }
   
-  80% {
-    transform: translate(-150px, 0);
-     border-radius: 100%
+  50% {
+     border-bottom: 100px solid red;
+      border-right: 100px solid transparent;
+  }
+  75% {
+  	border-bottom: 100px solid red;
+      border-left: 100px solid transparent;
   }
 }
 
