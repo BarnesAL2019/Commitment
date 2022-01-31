@@ -22,6 +22,15 @@ p {
 	animation: takeoff 8s infinite;
 }
 
+@keyframes sky {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: 1600px;
+  }
+}
+
 @keyframes takeoff {
 	0%, 100%{
 		font-size: 200px;
