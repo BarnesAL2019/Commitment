@@ -49,13 +49,17 @@ center {
 	0%, 100%{
 	background-color:#292787;
 		}
-	50%{
-	background-color:#42b6f5;
+	30%{
+	background-color:#8600b3;
+	}
+	35%{
+		background-color: #e831eb;
 	}
 	/*50%{
   	background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='219' height='219' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(90)'%3E%3Crect width='100%25' height='100%25' fill='rgba(99, 179, 237,1)'/%3E%3Cpath d='M0 0a 20 20 0 0 1 20 20a 0 0 0 0 0 0 0v20a-20-20 0 0 1-20-20a 0 0 0 0 0 0 0z' fill='rgba(104, 211, 145,1)'/%3E%3Cpath d='M20 0a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20v20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20zM20 40a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20v20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20z' fill='rgba(129, 230, 217,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
   	background-attachment: fixed;
 	background-size: cover;
+	#42b6f5
   }
   75%{
   	background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='35' height='35' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(90)'%3E%3Crect width='100%25' height='100%25' fill='rgba(99, 179, 237,1)'/%3E%3Cpath d='M0 0a 20 20 0 0 1 20 20a 0 0 0 0 0 0 0v20a-20-20 0 0 1-20-20a 0 0 0 0 0 0 0z' fill='rgba(104, 211, 145,1)'/%3E%3Cpath d='M20 0a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20v20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20zM20 40a 0 0 0 0 0 0 0a 20-20 0 0 1 20-20v20a 0 0 0 0 0 0 0a-20 20 0 0 1-20 20z' fill='rgba(129, 230, 217,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
