@@ -46,8 +46,6 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	background-color: green;
 	 width: 0;
       height: 0;
-      border-top: 100px solid green;
-      border-right: 100px solid transparent;
   animation:   
     triangle2 5s linear infinite alternate;
 }
@@ -76,18 +74,17 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 @keyframes triangle2 {
   0%, 100% {
-    border-top: 100px solid navy;
-    border-right: 100px solid seagreen;
+   
   }
   25% {
-    border-left: 100px solid seagreen;
+    border-right: 100px solid seagreen;
+    border-top: 100px solid navy;
   }
   50% {
-    border-bottom: 100px solid navy;
-    border-right: 100px solid seagreen;
+    border-left: 100px solid seashell;
   }
   75%{
-  	border-bottom: 100px solid navy;
+  	border-top: 100px solid navy;
   	border-left: 100px solid seagreen;
   }
   
