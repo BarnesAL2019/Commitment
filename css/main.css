@@ -10,11 +10,9 @@ p {
 }
 
 .circle {
-  width: 100px;
-  height: 100px;
+  width: 500px;
+  height: 500px;
   background: lightyellow;
-  animation: sky 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-  transform: translate3d(0, 0, 0);
   border-radius: 50%
 }
 
@@ -24,7 +22,7 @@ p {
 
 @keyframes sky {
   0% {
-    margin-left: 0;
+    margin-left:-500;
   }
   100% {
     margin-left: 1600px;
