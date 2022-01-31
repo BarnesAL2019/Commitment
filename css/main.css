@@ -29,11 +29,10 @@ p {
 
 	}
 	50%{
-	  border-bottom: 500px solid purple;
-      border-left: 25px solid transparent;
-      border-right: 25px solid transparent;
-      height: 200px;
-      width: 100px;
+      width: 150px;
+      height: 100px;
+      transform: skew(20deg);
+      background: red;
 	}
 
 }
