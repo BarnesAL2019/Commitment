@@ -1,6 +1,5 @@
 body {
 	background-color: #292787;
-	animation: switch 10s infinite;
 }
 
 p {
@@ -11,17 +10,17 @@ p {
 }
 
 .iconAdded{
-	animation: takeoff 2s infinite;
+	animation: takeoff 8s infinite;
 }
 
 @keyframes takeoff {
 	0%, 100%{
 		font-size: 200px;
-		margin-top: -150px;
+		margin-left: 500px;
 	}
 	50%{
 		font-size: 150px;
-		margin-top: 500px;
+		margin-left: -500px;
 		color: black;
 	}
 	/*50%
@@ -41,7 +40,6 @@ p {
 
 center {
 	font-size: 150px;
-	animation: takeoff 2s infinite;
 }
 
 
