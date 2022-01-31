@@ -143,7 +143,7 @@ center {
 	}
 	90%
 	{
-		background-color: #c1f7f5;
+		background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='130' height='130' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(90)'%3E%3Crect width='100%25' height='100%25' fill='rgba(113, 128, 150,1)'/%3E%3Cpath d='M0 20L10 0L20 20L10 40L0 20zM40 20L50 0L60 20L50 40L40 20z' fill='rgba(226, 232, 240,1)'/%3E%3Cpath d='M20 20L30 0L40 20L30 40L20 20z' fill='rgba(45, 55, 72,1)'/%3E%3Cpath d='M20 20h10L30 40zM40 20h-15L30 0z' fill='rgba(226, 232, 240,1)'/%3E%3Cpath d='M0 20h10L10 40L0 20zM20 20h-15L10 0zM40 20h10L50 40L40 20zM60 20h-15L50 0z ' fill='rgba(45, 55, 72,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
 		background-attachment: fixed;
 	background-size: cover;
 	}
