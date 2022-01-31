@@ -11,10 +11,7 @@ p {
 }
 
 .shape {
-      border-bottom: 100px solid red;
-      border-left: 25px solid transparent;
-      border-right: 25px solid transparent;
-      height: 0;
+      height: 100;
       width: 100px;
       animation: move 5s infinite;
 }
@@ -31,6 +28,11 @@ p {
       height: 150px;
       transform: skew(20deg);
       background: red;
+	}
+	50%{
+	width: 200px;
+  	height: 100px;
+    background: pink;
 	}
 	75%{
       width: 100px;
