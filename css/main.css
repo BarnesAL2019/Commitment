@@ -13,7 +13,17 @@ p {
 }
 
 .iconAdded{
+	animation: waterFlowers 6s infinite;
+}
 
+@keyframes waterFlowers {
+	0%, 100%{
+		transform: rotate(0deg);
+	}
+	50%
+	{
+		transform: rotate(360deg);
+	}
 }
 
 center {
