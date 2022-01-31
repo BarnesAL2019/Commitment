@@ -76,15 +76,19 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 @keyframes triangle2 {
   0%, 100% {
-    border-top: 50px solid seagreen;
-    border-right: 100px solid transparent;
-    border-left: 100px solid transparent;
+    border-top: 100px solid navy;
+    border-right: 100px solid seagreen;
   }
-  
+  25% {
+    border-left: 100px solid seagreen;
+  }
   50% {
-    border-top: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-left: 100px solid transparent;
+    border-bottom: 100px solid navy;
+    border-right: 100px solid seagreen;
+  }
+  75%{
+  	border-bottom: 100px solid navy;
+  	border-left: 100px solid seagreen;
   }
   
 }
