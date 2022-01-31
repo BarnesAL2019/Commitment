@@ -13,7 +13,9 @@ p {
 .shape {
       height: 100;
       width: 100px;
-      animation: move 5s infinite;
+      animation: 
+      switchShape 3s infinite, 
+      move 5s infinite;
 }
 
 @keyframes move{
@@ -43,6 +45,40 @@ p {
 
 }
 
+@keyframes switchShape {
+	0%, 100%{
+	
+		}
+	10%{
+	
+	}
+	20%{
+		
+	}
+	30%{
+		
+	}
+	40%{
+		
+	}
+	50%
+	{
+		
+	}
+	60%{
+		
+	}
+	70%{
+		
+	}
+	80%{
+		
+	}
+	90%
+	{
+		
+	}
+}
 .oval {
       width: 200px;
       height: 100px;
