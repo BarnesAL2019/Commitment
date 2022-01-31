@@ -18,7 +18,8 @@ p {
 }
 
 .iconAdded{
-margin-bottom: -500px;
+
+margin-top: -200px;
 }
 
 @keyframes sky {
