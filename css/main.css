@@ -14,7 +14,6 @@ p {
 	margin-top: 300px;
   width: 200px;
   height: 200px;
-  background: lightyellow;
   animation: Oval 5s infinite;
   border-radius: 50%
 }
@@ -23,16 +22,26 @@ p {
 	0%{
 	width: 200px;
   height: 200px;
+  background-color: red;
   border-radius: 50%
+
 	}
 	25%{
 	  width: 200px;
       height: 100px;
+      background-color: orange;
       border-radius: 100px / 50px;
 	}
 	50%{
 	  width: 200px;
       height: 100px;
+      background-color: yellow;
+      border-radius: 50px / 100px;
+	}
+	75%{
+		width: 100px;
+      height: 200px;
+      background-color: red;
       border-radius: 50px / 100px;
 	}
 
