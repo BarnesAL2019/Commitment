@@ -1,5 +1,6 @@
 body {
-background-color: paleturquoise;
+background-color: navy;
+animation: triangle 3s infinite;
 }
 
 center {
@@ -43,28 +44,22 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }*/
 
 .shape{
-	background-color: red;
-	height: 400px;
-  width: 400px;
-  animation:
-  	pulse 3s ease infinite alternate,   
-    nudge 5s linear infinite alternate;
-   border-radius: 100px / 50px;
+	background-color: green;
+	 width: 0;
+      height: 0;
+      border-top: 100px solid red;
+      border-right: 100px solid transparent;
+  animation:   
+    triangle 5s linear infinite alternate;
 }
 
-@keyframes pulse {
-  0% {
-    background-color: red;
-  }
-  100% {
-    background-color: purple;
-  }
-}
 
-@keyframes nudge {
+@keyframes triangle {
   0%, 100% {
-    transform: translate(0, 0);
-     border-radius: 100px / 50px;
+    width: 0;
+    height: 0;
+    border-top: 100px solid seagreen;
+    border-right: 100px solid transparent;
   }
   
   50% {
