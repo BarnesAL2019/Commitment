@@ -1,11 +1,6 @@
 body {
-/* background-color: #BD40FF;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23FFFFFF' stroke-width='66.7' stroke-opacity='0.05' %3E%3Ccircle fill='%23BD40FF' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23ab54ff' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%239763ff' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%238170ff' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23697bff' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%234c84ff' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23208dff' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%230094ff' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23009bff' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%2300a1ff' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%2300a7ff' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%2300acff' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%2300b1ff' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%2300b5ff' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%2300b9ff' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%2300bdfb' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%2300c0f4' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%230BC3EE' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
-background-attachment: fixed;
-background-size: cover; */
-
-background-color: #DFDBE5;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cpath fill='%230036f8' fill-opacity='0.4' d='M14 16H9v-2h5V9.87a4 4 0 1 1 2 0V14h5v2h-5v15.95A10 10 0 0 0 23.66 27l-3.46-2 8.2-2.2-2.9 5a12 12 0 0 1-21 0l-2.89-5 8.2 2.2-3.47 2A10 10 0 0 0 14 31.95V16zm40 40h-5v-2h5v-4.13a4 4 0 1 1 2 0V54h5v2h-5v15.95A10 10 0 0 0 63.66 67l-3.47-2 8.2-2.2-2.88 5a12 12 0 0 1-21.02 0l-2.88-5 8.2 2.2-3.47 2A10 10 0 0 0 54 71.95V56zm-39 6a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm40-40a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM15 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm40 40a2 2 0 1 0 0-4 2 2 0 0 0 0 4z'%3E%3C/path%3E%3C/svg%3E");
+  background-color: lightblue;
+  overflow: hidden;
 
 }
 
@@ -16,33 +11,58 @@ header {
 }
 
 .sailboat{
-	animation: sail 3s infinite;
+	animation: sail 5s infinite;
     animation-direction: alternate;
 }
-
-.anchor{
-	position: absolute;
-  top: 50%;
-  transform: translateY(-40%);
-  animation: drop 3s infinite;
-  animation-direction: alternate;
-	
-}
-
-@keyframes drop {
-  0% {
-    transform: translate(0, 0);    
-  }
-  100% {
-    transform: translate(0px, 300px);
-  }
-}	
 
 @keyframes sail {
   0% {
     transform: translate(0, 0);    
   }
   100% {
-    transform: translate(600px, 0px);
+    transform: translate(1100px, 0px);
+  }
+}
+
+.ocean { 
+  height: 5%;
+  width:100%;
+  position:absolute;
+  bottom:0;
+  left:0;
+  background: #015871;
+}
+
+.wave {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
+  position: absolute;
+  top: -198px;
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
   }
 }
