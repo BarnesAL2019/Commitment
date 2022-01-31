@@ -1,34 +1,24 @@
 body {
-	background-color: #45D5FF;
+	background-color: #292787;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23de9300' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa691a' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e1a108' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23935f1b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23e3b014' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%237d551b' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23e4be21' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23694a1c' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23e5cd2d' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%2355401d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23e5db3b' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%2343351d' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
 background-attachment: fixed;
 background-size: cover;
+/*animation: night 5s infinite;*/
+}
+
+center {
+	font-family: 'Comforter', cursive;
+	font-size: 150px;
+	color: white;
 }
 
 .circle {
   width: 200px;
   height: 200px;
   background-color:Yellow;
-  animation: moon 5s infinite;
+  /*animation: moon 5s infinite;*/
   border-radius: 50%
 
-}
-
-.sky{
-	color: white;
-	animation: sky 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-  	transform: translate3d(0, 0, 0);
-}
-.sky2{
-	color: white;
-	animation: sky 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-  	transform: translate3d(50, 0, 0);
-  	animation-delay: 1s;
-}
-.sky3{
-	color: white;
-	animation: sky 40s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
-  	transform: translate3d(0, 0, 0);
 }
 
 @keyframes sky {
