@@ -16,12 +16,12 @@ p {
 
 @keyframes takeoff {
 	0%, 100%{
-		font-size: 150px;
-		margin-top: 500px;
+		font-size: 200px;
+		margin-top: -150px;
 	}
 	50%{
-		font-size: 200px;
-		margin-top: -2000px;
+		font-size: 150px;
+		margin-top: 500px;
 		color: black;
 	}
 	/*50%
